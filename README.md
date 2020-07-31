@@ -9,20 +9,20 @@ Remove type7 manually - Cisco's allow the same password to be added with both ty
 ## Management
 Confirm SSH v2.0 or higher is being used rather than telnet  
 Confirm that SSH Timeout has been configured  
-Authentication retries – no. of retries before login     
-Configure SSH on VTYs - 'transport input ssh' , Note that 'login local' on VTY will skip AAA  
+Authentication retries – no. of retries before login      
+Configure SSH on VTYs - 'transport input ssh' , Note that 'login local' on VTY will skip AAA    
 
 ## Logging
-Set the appropriate time zone   
-Set logging and debug with local time    
-Log level information needs to be set appropriately    
-Increase local log buffer size    
+Set the appropriate time zone  
+Set logging and debug with local time     
+Log level information needs to be set appropriately     
+Increase local log buffer size  
 Are configuration changes being logged?  
 
 ## VTY ACL's
-Set VTY IP access list permit with whitelisted IP subnets    
-Apply outbound access list   
-If OOB NW is used, use 'vty in vrf-also' for mgmt VRF    
+Set VTY IP access list permit with whitelisted IP subnets     
+Apply outbound access list  
+If OOB NW is used, use 'vty in vrf-also' for mgmt VRF  
 
 ## SNMP
 Use SNMPv3    
